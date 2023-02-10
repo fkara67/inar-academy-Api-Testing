@@ -21,4 +21,8 @@ public class TestDataBuild {
 
         return builder.build();
     }
+
+    public String deletePlacePayload(String place_id) {
+        return "{\"place_id\":\"" + place_id + "\"}";
+    }
 }
